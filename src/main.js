@@ -4,6 +4,7 @@ import router from './router'
 import '@/assets/less/base.less'
 // import './assets/iconfont/iconfont.css'
 // import Cookie from "js-cookie";
+if (process.env.NODE_ENV !== 'production') require('./mock')
 
 Vue.config.productionTip = false
 

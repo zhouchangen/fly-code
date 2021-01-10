@@ -38,6 +38,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
+    "mockjs": "^1.1.0",
     "style-resources-loader": "^1.4.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "vue-cli-plugin-style-resources-loader": "^0.1.4",
