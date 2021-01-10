@@ -1,0 +1,30 @@
+@import 'reset.less'; // 重置css; 
+// @import (less) '~@/assets/iconfont/iconfont.css';
+html, body{
+  height: 100%;
+  background-color: #F2F5FB ;
+  //根据像素比缩放1px像素边框
+  @media only screen and (-webkit-device-pixel-ratio: 2 ) {
+    .border-1px {
+      &::before {
+        transform: scaleY(.5);
+      }
+    }
+  }
+
+  @media only screen and (-webkit-device-pixel-ratio: 3 ) {
+    .border-1px {
+      &::before {
+        transform: scaleY(.333333);
+      }
+    }
+  }
+
+  .text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+

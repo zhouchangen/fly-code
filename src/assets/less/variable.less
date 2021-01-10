@@ -1,0 +1,154 @@
+  // 主题颜色
+  // @themeColor: #0078FF;
+  @themeColor: #24A3FF;
+  @themeDisable: #a7daff;
+  @basicColor: #f2f2f2;
+  .themeClass {
+    color: @themeColor;
+  }
+  // @labelColor: #999;
+  @labelColor: #666;
+  @textColor3: #333;
+  @textColor6: #666;
+  @textColor9: #999;
+  @textColorc: #ccc;
+  @textTip1: #FF5656;
+  @textTip2: red;
+  @font24: 0.24rem;
+  @font28: 0.28rem;
+  @font32: 0.32rem;
+
+  .color3-class{
+    color: @textColor3
+  }
+  .color6-class{
+    color: @textColor6
+  }
+  .color9-class{
+    color: @textColor9
+  }
+  .colorc-class{
+    color: @textColorc
+  }
+  .textTip1-class{
+    color: @textTip1
+  }
+  .textTip2-class{
+    color:  @textTip2
+  }
+
+  .flex_box {
+    display: flex;
+  }
+  
+  .fb_jc_c {
+    justify-content: center;
+  }
+  
+  .fb_jc_fe {
+    justify-content: flex-end;
+  }
+  
+  .fb_jc_sb {
+    justify-content: space-between;
+  }
+  
+  .fb_jc_sa {
+    justify-content: space-around;
+  }
+  
+  .fb_ai_c {
+    align-items: center;
+  }
+  
+  .fb_ai_fe {
+    align-items: flex-end;
+  }
+  
+  .fb_column {
+    flex-direction: column;
+  }
+  
+  .fb_fw_w {
+    flex-wrap: wrap;
+  }
+  
+  .fb_f1 {
+    flex: 1;
+  }
+  
+  /* 设置必填 */
+
+.label-required::before {
+  content: "* ";
+  color: #f44;
+}
+
+/* 文本溢出处理 */
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.inline{
+  display: inline;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+input::placeholder{
+  color: #666;
+}
+/* 主题颜色设定 #ed6d00;*/
+.main_color {
+  color: @themeColor;
+}
+.m_bg_color {
+  background-color: @themeColor;
+}
+.m_border_color {
+  border-color: @themeColor;
+}
+.red {
+  color: red;
+}
+.gray {
+  color: #999;
+}
+.disabled {
+  opacity: 0.5;
+}
+
+.m_bg_color {
+  background-color: @themeColor;
+}
+.size-12 {
+  font-size: 12px;
+}
+.size-13 {
+  font-size: 13px;
+}
+.size-14 {
+  font-size: 14px;
+}
+
+
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex_start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex_between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
